@@ -1,0 +1,118 @@
+.instagram
+    padding: 40px 0
+    &__row
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__form
+        display: flex  
+        flex-direction: column 
+        margin-top: 21px
+        margin-bottom: 17px
+        input
+            outline: none
+            width: 268px
+            height: 37px
+            border: 1px solid #D7D7D7;
+            border-radius: 2px
+            background: #FAFAFA
+            padding: 9px 0 7px 8px
+
+            font-size: 12px
+            line-height: 17px
+            color: #8E8E8E
+            &:nth-child(1)
+                margin-bottom: 7px
+            &:nth-child(3)
+                margin-bottom: 11px
+        button
+            width: 268px
+            height: 30px
+            background: #0095F6
+            border-radius: 4px
+            font-weight: bold
+            font-size: 13px
+            line-height: 15px
+            color: #FFFFFF
+    &__line
+        font-size: 17px
+        line-height: 20px
+        color: #8E8E8E
+        position: relative
+        &::before
+            content: ''
+            background: #000
+            display: block
+            position: absolute
+            top: 11px
+            right: 40px
+            width: 100px
+            height: 0px
+            border: 1px solid #DBDBDB;
+        &::after   
+            content: ''
+            background: #000
+            display: block
+            position: absolute
+            top: 11px
+            left: 40px
+            width: 100px
+            height: 0px
+            border: 1px solid #DBDBDB;
+    &__facebook
+        margin-top: 25px
+        display: flex
+        align-items: center 
+
+        font-family: Arial, Helvetica, sans-serif
+        font-size: 14px
+        line-height: 16px  
+        a
+            color: #385185;
+        p
+            margin-left: 5px
+    &__forget
+        margin-top: 20px
+        margin-bottom: 50px
+        font-weight: 400
+        font-size: 14px
+        line-height: 14px
+        color: #00376A
+    &__create
+        display: flex
+        font-weight: 400    
+        font-size: 13px
+        line-height: 15px
+        color: #000000
+        p:nth-child(2)
+            margin-left: 8px
+            color: #0095F6
+    &__download
+        margin-top: 45px
+        text-align: center
+        font-size: 14px
+        line-height: 16px
+        color: #454545
+        &__row
+            margin-top: 20px
+    
+.footer
+    &__row
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: center
+        margin-left: -20px
+        li 
+            text-align: center
+            font-size: 12px
+            line-height: 22px
+            color: #8E8E8E
+            margin-left: 20px
+    &__text
+        display: flex
+        justify-content: space-between
+        margin-top: 20px
+        font-size: 14px
+        line-height: 14px
+        color: #8E8E8E
